@@ -201,6 +201,21 @@ https://css-tricks.com/three-line-menu-navicon*/
 .bodytext p{
   font-size:30px;
 }
+.hamburger{
+  height:32px;
+  width:35px;
+}
+.hamburger:hover .burger_line, .hamburger:hover .burger_line_1{
+  background-color:#f1479d;
+}
+.burger_line_1, .burger_line{
+  background-color: white;
+  width: 35px;
+  height:5px;
+}
+.burger_line{
+  margin-top: 7px;
+}
 
 @media (max-width:1260px){
     .desktop_nav, .topimage{
