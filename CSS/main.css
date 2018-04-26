@@ -218,7 +218,13 @@ https://css-tricks.com/three-line-menu-navicon*/
   margin-top: 7px;
 }
 
-. lorem p {
+h1 {
+padding-top:3em;
+padding-bottom:1em;	
+text-align:center;
+}	
+
+. lorem {
     text-align:center;
 }
 
