@@ -224,11 +224,13 @@ padding-bottom:1em;
 text-align:center;
 }	
 
-. lorem {
+.Lorem {
     text-align:center;
-    padding 10px 30px;
 }
 
+.Lorem p {
+    padding 10px 30px;
+}
 @media (max-width:1138px){
     .desktop_nav, .topimage{
         display:none;
