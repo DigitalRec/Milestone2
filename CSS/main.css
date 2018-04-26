@@ -68,7 +68,7 @@ https://css-tricks.com/three-line-menu-navicon*/
     color:white;
     text-decoration:none;
     font-family: 'Anton',"Arial Black", Gadget, sans-serif;
-    font-size: 3em;
+    font-size: 1.3em;
 }
 .desktop_nav .dropdown .dropdown_btn a .caret {
                        border-bottom: 4px solid transparent;
