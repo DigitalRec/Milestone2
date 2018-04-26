@@ -226,6 +226,7 @@ text-align:center;
 
 . lorem {
     text-align:center;
+    padding 10px 30px;
 }
 
 @media (max-width:1138px){
