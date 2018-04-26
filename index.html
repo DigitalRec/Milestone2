@@ -1,89 +1,104 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  	<title>MILESTONE2</title>
+    <link rel="stylesheet" href="CSS/main.css">
+  </head>
+  <body>
+    <div class="topimage"><img src="css/car.jpg"/></div>
+    <div class="desktop_nav" id="d_nav">
+        <div class="logo"><a href="#">LOGO</a></div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">CONTACT US<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Booking Form</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">ABOUT US<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Opening Time & Location</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">LEAGUE BOWLING<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Join A League</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">CAFE</a></div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">PARTIES AND EVENTS<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Birthday Parties</a>
+              <a href="#">Party Platter</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">PRICES<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Regular Prices</a>
+              <a href="#">Student Prices</a>
+              <a href="#">Deals</a>
+              <a href="#">Group of 10 or More</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown_btn"><a href="#">ACTIVITIES<span class="caret"></span></a></div>
+            <div class="dropdown_list">
+              <a href="#">Planet Tenpin</a>
+              <a href="#">Kids Planet</a>
+              <a href="#">Planet Putt Putt</a>
+              <a href="#">Learn to Bowl</a>
+            </div>
+        </div>
 
-<!-- html, css and JS thanks to
-https://www.adam-bray.com ,www.w3schools.com and
-https://css-tricks.com/three-line-menu-navicon-->
-
-<html lang="en">
-
-<head>
-  <link href="css/Styles.css" rel="stylesheet" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js">
-  </script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <title>Matt Heffernan Milestone2</title>
-</head>
-
-<body>
-  <h1>Milestone 2</h1>
-  <header>
-
-<!-- This is where the javascript and css change menu into burger icon -->
-
-    <div id="logo" class="menuUp">
-    <h2>s293970_Matt Heffernan</h2>
-    <a href="#" class="test">
-      <img src="css/hamburger-icon-20.png" alt= "menu icon"></a>
-
+        <div style="clear:both"></div>
     </div>
 
-<!-- The actual navigation menu content -->
-    <nav>
-      <ul>
-        <!-- Location drop down menu -->
-        <li>
-          <a href="#">Location <span class="toggle">Expand</span>
-                  <span class="caret"></span></a>
-          <nav>
-            <ul>
-              <li><a href="#">Darwin</a></li>
-              <li><a href="#">Palmerston</a></li>
-              <li><a href="#">Katherine</a></li>
+    <div id="sidemenu" class="sidemenu">
+      <a href="javascript:void(0)" class="sidemenu_close" onclick="mobilenav_close()">&times;</a>
+      <div class="side_dropdown">
+          <div class="side_dropdown_btn"><a href="#">LOCATION</a></div>
+          <div id="side_list_location" class="side_dropdown_list">
+            <a href="#">Darwin</a>
+            <a href="#">Palmerston</a>
+            <a href="#">Katherine</a>
+          </div>
+      </div>
+      <div class="side_dropdown">
+          <div class="side_dropdown_btn"><a href="#">ABOUT</a></div>
+          <div id="side_list_about" class="side_dropdown_list">
+            <a href="#">History</a>
+            <a href="#">Team</a>
+          </div>
+      </div>
+      <div class="side_dropdown">
+          <div class="side_dropdown_btn"><a href="#">MEDIA</a></div>
+          <div id="side_list_media" class="side_dropdown_list">
+            <a href="#">Blog</a>
+            <a href="#">Photo Gallery</a>
+            <a href="#">Reports</a>
+          </div>
+      </div>
+    </div>
 
-            </ul>
-          </nav>
-        </li>
+    <div class="mobile_nav">
+        <h3 class="logo"><a href="#">LOGO</a></h3>
+        <h4 onclick=mobilenav_open() class="menu">MENU</h4>
+        <div style="clear:both"></div>
+    </div>
 
-        <!-- About drop down menu -->
-        <li>
-          <a href="#">About<span class="toggle">Expand</span>
-                    <span class="caret"></span></a>
-          <nav>
-            <ul>
-              <li><a href="#">History</a></li>
-              <li><a href="#">Team</a></li>
 
-            </ul>
-          </nav>
-        </li>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <scriptsrc="http://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 
-        <!-- Media drop down menu -->
-        <li>
-          <a href="#">Media<span class="toggle">Expand</span>
-                    <span class="caret"></span></a>
-          <nav>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Photo Gallery</a></li>
-              <li><a href="#">Reports</a></li>
-
-            </ul>
-          </nav>
-        </li>
-
-      </ul>
-    </nav>
-
-  </header>
-
-  <script src="Scripts/myscript.js">
-  </script>
-
-</body>
-
+  </body>
 </html>
