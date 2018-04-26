@@ -198,7 +198,7 @@
   font-size:30px;
 }
 
-@media (max-width:612px){
+@media (max-width:1260px){
     .desktop_nav, .topimage{
         display:none;
     }
