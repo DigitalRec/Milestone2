@@ -1,3 +1,10 @@
+/* Some of the html, css and JS thanks to
+https://www.adam-bray.com ,www.w3schools.com and
+https://css-tricks.com/three-line-menu-navicon*/
+
+
+
+
 window.onscroll = function(){ sticknav() };
 var navbar= document.getElementById("d_nav");
 var sticky = navbar.offsetTop;
